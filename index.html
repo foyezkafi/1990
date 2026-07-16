@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This'1990'</title>
+    <script>
+      // Safeguard against third-party browser extensions or page scripts
+      // that attempt to write to window.fetch inside sandboxed iframes.
+      try {
+        const originalFetch = window.fetch;
+        let currentFetch = originalFetch;
+        Object.defineProperty(window, 'fetch', {
+          get() {
+            return currentFetch;
+          },
+          set(val) {
+            currentFetch = val;
+          },
+          configurable: true,
+          enumerable: true
+        });
+      } catch (e) {
+        // Silently capture any errors if the descriptor is non-redefinable
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

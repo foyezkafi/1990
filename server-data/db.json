@@ -1,0 +1,287 @@
+{
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Premium Oversized Cotton Hoodie",
+      "description": "Crafted from 450GSM heavy cotton. Drop shoulder silhouette, double-lined hood, and deep kangaroo pocket. Built for absolute comfort and a sleek structural drape.",
+      "price": 650,
+      "originalPrice": 1250,
+      "category": "Streetwear",
+      "image": "https://i.ibb.co.com/23Lyng6m/Whats-App-Image-2026-07-16-at-9-30-51-PM.jpg",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "name": "Charcoal Slate",
+          "hex": "#334155"
+        },
+        {
+          "name": "Midnight Black",
+          "hex": "#0f172a"
+        },
+        {
+          "name": "Olive Green",
+          "hex": "#3f6212"
+        }
+      ],
+      "rating": 4.8,
+      "reviewsCount": 128,
+      "stock": 25,
+      "isFeatured": true,
+      "code": "001"
+    },
+    {
+      "id": "prod-2",
+      "name": "Classic Italian Wool Blend Coat",
+      "description": "Tailored double-breasted long coat in a rich wool blend. Features hand-stitched notch lapels, structural shoulders, and deep inner lining for crisp, cold seasons.",
+      "price": 550,
+      "originalPrice": 1050,
+      "category": "Womenswear",
+      "image": "https://i.ibb.co.com/8nTJxbG1/Whats-App-Image-2026-07-16-at-9-30-51-PM-1.jpg",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "name": "Camel Tan",
+          "hex": "#b45309"
+        },
+        {
+          "name": "Charcoal Slate",
+          "hex": "#334155"
+        }
+      ],
+      "rating": 4.9,
+      "reviewsCount": 64,
+      "stock": 8,
+      "isFeatured": true,
+      "code": "002"
+    },
+    {
+      "id": "prod-2",
+      "name": "Classic Italian Wool Blend Coat",
+      "description": "Tailored double-breasted long coat in a rich wool blend. Features hand-stitched notch lapels, structural shoulders, and deep inner lining for crisp, cold seasons.",
+      "price": 550,
+      "originalPrice": 1050,
+      "category": "Womenswear",
+      "image": "https://i.ibb.co.com/WpMqgPcm/Whats-App-Image-2026-07-16-at-9-30-52-PM.jpg",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "name": "Camel Tan",
+          "hex": "#b45309"
+        },
+        {
+          "name": "Charcoal Slate",
+          "hex": "#334155"
+        }
+      ],
+      "rating": 4.9,
+      "reviewsCount": 64,
+      "stock": 8,
+      "isFeatured": true,
+      "code": "002"
+    },
+
+    {
+      "id": "prod-4",
+      "name": "Organic Crewneck Minimalist Tee",
+      "description": "Super-soft organic combed cotton jersey tee. Features neck ribbing and shoulder-to-shoulder tape. Pre-shrunk to retain structural fit after endless washes.",
+      "price": 450,
+      "originalPrice": 750,
+      "category": "Menswear",
+      "image": "https://i.ibb.co.com/v6kCx3Bm/Whats-App-Image-2026-07-16-at-9-30-52-PM-1.jpg" ,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        {
+          "name": "Eggshell White",
+          "hex": "#fafaf9"
+        },
+        {
+          "name": "Heather Grey",
+          "hex": "#64748b"
+        },
+        {
+          "name": "Midnight Black",
+          "hex": "#0f172a"
+        }
+      ],
+      "rating": 4.7,
+      "reviewsCount": 310,
+      "stock": 50,
+      "isFeatured": true,
+      "code": "004"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORDER-20260708-0001",
+      "customerName": "foyez kafi ",
+      "phone": "01970403411",
+      "email": "customer@example.com",
+      "shippingAddress": "fgsdfgsdg",
+      "notes": "Ordered via WhatsApp Direct Checkout. Size: S, Color: Charcoal Slate",
+      "items": [
+        {
+          "productId": "prod-1",
+          "name": "Premium Oversized Cotton Hoodie",
+          "price": 1950,
+          "quantity": 1,
+          "selectedSize": "S",
+          "selectedColor": "Charcoal Slate",
+          "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&q=80&w=600"
+        }
+      ],
+      "totalAmount": 1950,
+      "paymentMethod": "bKash",
+      "transactionId": "SGSAG",
+      "status": "Payment Verified",
+      "statusTimeline": [
+        {
+          "status": "Pending Payment",
+          "timestamp": "2026-07-08T22:26:21.137Z",
+          "note": "Order placed. Awaiting manual payment transfer."
+        },
+        {
+          "status": "Pending Payment",
+          "timestamp": "2026-07-08T22:26:21.204Z",
+          "note": "Submitted manual payment of ৳1950 via bKash. Transaction ID: SGSAG. Awaiting admin verification."
+        },
+        {
+          "status": "Payment Verified",
+          "timestamp": "2026-07-08T22:28:46.083Z",
+          "note": "Payment successfully verified by Admin."
+        }
+      ],
+      "createdAt": "2026-07-08T22:26:21.137Z"
+    },
+    {
+      "id": "ORDER-20260709-0001",
+      "customerName": "ergdsfsd",
+      "phone": "82340921",
+      "email": "customer@example.com",
+      "shippingAddress": "fsdsfg",
+      "notes": "Ordered via WhatsApp Direct Checkout. Size: S, Color: Charcoal Slate",
+      "items": [
+        {
+          "productId": "prod-1",
+          "name": "Premium Oversized Cotton Hoodie",
+          "price": 1950,
+          "quantity": 1,
+          "selectedSize": "S",
+          "selectedColor": "Charcoal Slate",
+          "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&q=80&w=600"
+        }
+      ],
+      "totalAmount": 1950,
+      "paymentMethod": "bKash",
+      "transactionId": "ERGEWRG",
+      "status": "Pending Payment",
+      "statusTimeline": [
+        {
+          "status": "Pending Payment",
+          "timestamp": "2026-07-09T00:33:16.118Z",
+          "note": "Order placed. Awaiting manual payment transfer."
+        },
+        {
+          "status": "Pending Payment",
+          "timestamp": "2026-07-09T00:33:16.181Z",
+          "note": "Submitted manual payment of ৳1950 via bKash. Transaction ID: ERGEWRG. Awaiting admin verification."
+        }
+      ],
+      "createdAt": "2026-07-09T00:33:16.118Z"
+    },
+    {
+      "id": "ORDER-20260716-0001",
+      "customerName": "dgsdgds",
+      "phone": "01970403411",
+      "email": "customer@example.com",
+      "shippingAddress": "fghfdhdf",
+      "notes": "Ordered via WhatsApp Direct Checkout. Size: m, Color: gdsgfs",
+      "items": [
+        {
+          "productId": "prod-1",
+          "name": "Premium Oversized Cotton Hoodie",
+          "price": 1950,
+          "quantity": 2,
+          "selectedSize": "m",
+          "selectedColor": "gdsgfs",
+          "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&q=80&w=600"
+        }
+      ],
+      "totalAmount": 3900,
+      "paymentMethod": "bKash",
+      "transactionId": "FHFHDFH",
+      "status": "Pending Payment",
+      "statusTimeline": [
+        {
+          "status": "Pending Payment",
+          "timestamp": "2026-07-16T14:00:43.718Z",
+          "note": "Order placed. Awaiting manual payment transfer."
+        },
+        {
+          "status": "Pending Payment",
+          "timestamp": "2026-07-16T14:00:43.787Z",
+          "note": "Submitted manual payment of ৳3900 via bKash. Transaction ID: FHFHDFH. Awaiting admin verification."
+        }
+      ],
+      "createdAt": "2026-07-16T14:00:43.718Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1783549581204",
+      "orderId": "ORDER-20260708-0001",
+      "title": "New Payment Submitted",
+      "message": "Customer foyez kafi  submitted payment of ৳1950 for order ORDER-20260708-0001. Txn ID: SGSAG",
+      "status": "unread",
+      "createdAt": "2026-07-08T22:26:21.204Z"
+    },
+    {
+      "id": "notif-1783549726083",
+      "orderId": "ORDER-20260708-0001",
+      "title": "Order Status: Payment Verified",
+      "message": "Your order ORDER-20260708-0001 status has been updated from 'Pending Payment' to 'Payment Verified'.",
+      "status": "unread",
+      "createdAt": "2026-07-08T22:28:46.083Z"
+    },
+    {
+      "id": "notif-1783557196181",
+      "orderId": "ORDER-20260709-0001",
+      "title": "New Payment Submitted",
+      "message": "Customer ergdsfsd submitted payment of ৳1950 for order ORDER-20260709-0001. Txn ID: ERGEWRG",
+      "status": "unread",
+      "createdAt": "2026-07-09T00:33:16.181Z"
+    },
+    {
+      "id": "notif-1784210443787",
+      "orderId": "ORDER-20260716-0001",
+      "title": "New Payment Submitted",
+      "message": "Customer dgsdgds submitted payment of ৳3900 for order ORDER-20260716-0001. Txn ID: FHFHDFH",
+      "status": "unread",
+      "createdAt": "2026-07-16T14:00:43.787Z"
+    }
+  ],
+  "stats": {
+    "totalRevenue": 0,
+    "totalOrders": 0
+  }
+}

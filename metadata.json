@@ -1,0 +1,6 @@
+{
+  "name": "Premium Clothing E-Commerce",
+  "description": "A premium clothing storefront with 1-click Direct WhatsApp checkout, and manual mobile banking payment (bKash & Nagad) verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
