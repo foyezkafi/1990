@@ -2,11 +2,11 @@
   "products": [
     {
       "id": "prod-1",
-      "name": "Premium Oversized Cotton Hoodie",
+      "name": "Premium shirt",
       "description": "Crafted from 450GSM heavy cotton. Drop shoulder silhouette, double-lined hood, and deep kangaroo pocket. Built for absolute comfort and a sleek structural drape.",
       "price": 650,
       "originalPrice": 1250,
-      "category": "Streetwear",
+      "category": "shirt",
       "image": "https://i.ibb.co.com/23Lyng6m/Whats-App-Image-2026-07-16-at-9-30-51-PM.jpg",
       "sizes": [
         "S",
@@ -36,11 +36,11 @@
     },
     {
       "id": "prod-2",
-      "name": "Classic Italian Wool Blend Coat",
+      "name": "Premium shirt",
       "description": "Tailored double-breasted long coat in a rich wool blend. Features hand-stitched notch lapels, structural shoulders, and deep inner lining for crisp, cold seasons.",
       "price": 550,
       "originalPrice": 1050,
-      "category": "Womenswear",
+      "category": "shirt",
       "image": "https://i.ibb.co.com/8nTJxbG1/Whats-App-Image-2026-07-16-at-9-30-51-PM-1.jpg",
       "sizes": [
         "XS",
@@ -66,11 +66,11 @@
     },
     {
       "id": "prod-2",
-      "name": "Classic Italian Wool Blend Coat",
+      "name": "Premium shirt",
       "description": "Tailored double-breasted long coat in a rich wool blend. Features hand-stitched notch lapels, structural shoulders, and deep inner lining for crisp, cold seasons.",
       "price": 550,
       "originalPrice": 1050,
-      "category": "Womenswear",
+      "category": "shirt",
       "image": "https://i.ibb.co.com/WpMqgPcm/Whats-App-Image-2026-07-16-at-9-30-52-PM.jpg",
       "sizes": [
         "XS",
@@ -97,11 +97,11 @@
 
     {
       "id": "prod-4",
-      "name": "Organic Crewneck Minimalist Tee",
+      "name": "polo shirt",
       "description": "Super-soft organic combed cotton jersey tee. Features neck ribbing and shoulder-to-shoulder tape. Pre-shrunk to retain structural fit after endless washes.",
       "price": 450,
       "originalPrice": 750,
-      "category": "Menswear",
+      "category": "polo",
       "image": "https://i.ibb.co.com/v6kCx3Bm/Whats-App-Image-2026-07-16-at-9-30-52-PM-1.jpg" ,
       "sizes": [
         "S",
