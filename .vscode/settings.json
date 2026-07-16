@@ -1,0 +1,4 @@
+{
+  "tailwindCSS.validate": false,
+  "tailwindCSS.classAttributes": ["class", "className"]
+}

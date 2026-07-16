@@ -278,7 +278,7 @@ export default function App() {
       />
 
       {/* Main content stage */}
-      <main className="flex-grow">
+      <main className="grow">
         
         {currentView === "shop" && (
           <div className="space-y-12 pb-24">
@@ -389,7 +389,7 @@ export default function App() {
       {/* Elegant Micro-Toast Alert Slider */}
       {toast && (
         <div className="fixed top-24 right-6 z-50 bg-stone-950 text-white text-xs px-5 py-4 border border-white/10 shadow-2xl flex items-start gap-3 w-80 animate-fade-in rounded-none">
-          <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 mt-1.5 flex-shrink-0 animate-ping"></div>
+          <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 mt-1.5 shrink-0 animate-ping"></div>
           <div>
             <h5 className="font-bold tracking-wide text-white uppercase text-[10px]">{toast.title}</h5>
             <p className="text-stone-300 font-light mt-1 text-[11px] leading-relaxed">{toast.message}</p>

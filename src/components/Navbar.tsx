@@ -1,6 +1,6 @@
 import { Heart, Search, X } from "lucide-react";
 import { Product } from "../types";
-import logo from '../images/logo.png';
+
 interface NavbarProps {
   wishlist: Product[];
   currentView: "shop";
@@ -31,7 +31,7 @@ export default function Navbar({
             onClick={() => { onSelectCategory("All"); onSearch(""); onNavigate("shop"); }}
           >
             <img 
-              src={logo}
+              src="/src/assets/images/this1990_logo_1784210637465.jpg"
               alt="This'1990 Logo" 
               className="w-8 h-8 object-cover rounded-sm border border-stone-100"
               referrerPolicy="no-referrer" 

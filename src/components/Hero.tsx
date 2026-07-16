@@ -6,7 +6,7 @@ interface HeroProps {
 
 export default function Hero({ onShopNow }: HeroProps) {
   return (
-    <div className="relative overflow-hidden bg-stone-900 text-white min-h-[500px] sm:min-h-[620px] flex items-center">
+    <div className="relative overflow-hidden bg-stone-900 text-white min-h-125 sm:min-h-155 flex items-center">
       {/* Background Image with elegant vignette overlay */}
       <div className="absolute inset-0 z-0">
         <img
@@ -14,7 +14,7 @@ export default function Hero({ onShopNow }: HeroProps) {
           alt="Premium Collection Background"
           className="w-full h-full object-cover object-center opacity-65 scale-105 motion-safe:animate-[pulse_10s_ease-in-out_infinite]"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-stone-950/90 via-stone-900/60 to-transparent"></div>
+        <div className="absolute inset-0 bg-linear-to-r from-stone-950/90 via-stone-900/60 to-transparent"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
